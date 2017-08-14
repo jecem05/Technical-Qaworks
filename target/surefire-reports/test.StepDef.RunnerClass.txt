@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: test.StepDef.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 11.099 sec <<< FAILURE! - in test.StepDef.RunnerClass
+When I click on "Contact" tab(Scenario: Valid Submission)  Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='menu']/li[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-0DL13R8O', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Ace\AppData\Local\Temp\rust_mozprofile.j56J4LmCvUZ3, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0, platformVersion=10.0, moz:processID=5276.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: bd5cc5aa-83c3-49cd-8d6a-416a984e97de
+*** Element info: {Using=xpath, value=//*[@id='menu']/li[1]}
+
+Scenario: Valid Submission  Time elapsed: 0.026 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='menu']/li[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-0DL13R8O', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Ace\AppData\Local\Temp\rust_mozprofile.j56J4LmCvUZ3, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0, platformVersion=10.0, moz:processID=5276.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: bd5cc5aa-83c3-49cd-8d6a-416a984e97de
+*** Element info: {Using=xpath, value=//*[@id='menu']/li[1]}
+
