@@ -1,0 +1,74 @@
+Bug 1
+
+Description :
+Name textfield field accept more than 100 characters and special characters on the contact us page
+
+Steps to reproduce
+Given am on the Contact page
+When I enter more 100 characters and special characters in the name text field
+Then Should show an error message
+
+Actual
+more than 100 characters and special characters were displayed in the name text field
+
+Expected
+Unknown (No Requirement), Should not accept special characters
+
+Note:
+Project : AUT
+Env: Test 1 http://www.qaworks.com/
+Browser: chrome
+Release :
+Sprint :
+
+
+
+
+====
+Bug 2
+
+Description :
+Message title dissappear after clicking the message textfield 
+
+Steps to reproduce
+Given am on the Contact Us page
+When I enter characters in the message text field
+Then Message Title should be displayed on the message textfield
+
+Actual
+When typing in the Message textfield , the Message Title dissapears
+
+Expected
+Unknown (No Requirement), Message title should appear when typing in the message textfield
+Note:
+Project : AUT
+Env: Test 1 http://www.qaworks.com/
+Browser: firefox
+Release :
+Sprint :
+
+
+============
+
+Bug 3
+
+Description :
+Page remain the same after filling a valid Name, email and message textfield and clicking Send Button
+
+Steps to reproduce
+Given am on the Contact page
+When I enter fill the send us message form  Name , Email and Message details
+And I click Submit
+Then  Message sent should be displayed
+
+Actual
+When typing in the Message textfield , the Message Title dissapears
+
+Expected
+Unknown (No Requirement), Message Sent Successfully should be displayed
+Note:
+Project : AUT
+Env: Test 1 http://www.qaworks.com/
+Browser: firefox
+Release :
+Sprint :
